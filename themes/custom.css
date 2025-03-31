@@ -1,0 +1,135 @@
+/* Custom Theme */
+body {
+  background-color: #282828;
+  color: #ebdbb2;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace;
+  line-height: 1.6 !important;
+}
+
+/* Links */
+a {
+  color: #83a598;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b8bb26;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #b8bb26;
+  margin-bottom: 1rem !important;
+}
+
+/* Input fields */
+input, textarea, select {
+  background-color: #32302f;
+  border: 1px solid #504945;
+  color: #ebdbb2;
+  padding: 8px;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace;
+  transition: border-color 0.3s ease !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #b8bb26;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: #32302f;
+  border: 1px solid #504945;
+  color: #ebdbb2;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #3c3836;
+  border-color: #b8bb26;
+  color: #b8bb26;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  background-color: #32302f;
+  border: 1px solid #504945;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #504945;
+}
+
+th {
+  background-color: #3c3836;
+  color: #b8bb26;
+}
+
+tr:nth-child(even) {
+  background-color: #2c323c;
+}
+
+tr:hover {
+  background-color: #3c3836;
+}
+
+/* Code blocks */
+code {
+  background-color: #32302f;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace;
+}
+
+pre {
+  background-color: #32302f;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  border: 1px solid #504945;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Style cho nút copy */
+.copy-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #282828;
+  border: 1px solid #504945;
+  color: #ebdbb2;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.copy-btn:hover {
+  background: #3c3836;
+  border-color: #b8bb26;
+  color: #b8bb26;
+}
+
+.copy-btn.copied {
+  background: #98971a;
+  border-color: #98971a;
+  color: #282828;
+} 

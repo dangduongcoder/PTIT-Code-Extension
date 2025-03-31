@@ -1,0 +1,466 @@
+/* Dark Theme */
+body {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Links */
+a {
+  color: #bb2019 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* Input fields */
+input, textarea, select {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-color: #444444 !important;
+}
+
+/* Buttons */
+button, .button {
+  background-color: #444444 !important;
+  color: #ffffff !important;
+  border-color: #555555 !important;
+}
+
+/* Tables */
+table {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+th, td {
+  border-color: #444444 !important;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.status, .historywork, .ranking__wrapper {
+  background-color: #2d2d2d !important;
+  border: none !important;
+}
+
+.username.container-fluid {
+  display: none !important;
+}
+
+.ques__nav__form {
+  background-color: #3d3d3d !important;
+  border: none !important;
+}
+
+.custom-select.select__subject {
+  border: none !important;
+  background-color: #3d3d3d !important;
+}
+
+
+tr[class$="__table__head"] {
+  background-color: #3d3d3d !important;
+}
+
+.status__nav p, 
+.historywork__nav p, 
+.admin__status__nav__title, 
+.bestsol__nav p, 
+.setting__menu__title,
+.setting__main__guide__title {
+  color: #ffffff !important;
+}
+
+.setting__menu ul li a:hover {
+  background-color: none !important;
+  text-decoration: none;
+}
+
+.issue-guide {
+  background-color: #2d2d2d !important;
+  border: none !important;
+}
+
+.historywork, .bestsol, .only-web.profile.user, .main__user, .profile.user {
+  background-color: #2d2d2d !important;
+  border: none !important;
+}
+
+.nav-tabs, .main__user__content {
+  border-bottom: 1px solid #454545 !important;
+}
+
+.main__user__content__class__nav p, .main__user__content__grade__nav p {
+  color: #ffffff !important;
+}
+
+.profile__edit {
+  background-color: #3d3d3d !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: #3d3d3d !important;
+  border: none !important;
+}
+
+/* Navigation */
+.nav {
+  background-color: #2d2d2d !important;
+}
+
+.nav__menu__item a {
+  color: #ffffff !important;
+}
+
+.nav__profile__menu {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Main content */
+.wrapper {
+  background-color: #1a1a1a !important;
+}
+
+.ques__nav__top {
+  background-color: #2d2d2d !important;
+}
+
+.ques__nav__title {
+  color: #ffffff !important;
+}
+
+.ques__nav__form input[type="text"] {
+  background-color: #3d3d3d !important;
+  color: #ffffff !important;
+  border: 0px solid #4d4d4d !important;
+}
+
+.ques__table {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.ques__table__head {
+  background-color: #3d3d3d !important;
+}
+
+.ques__table th {
+  color: #ffffff !important;
+}
+
+.ques__table td {
+  color: #ffffff !important;
+}
+
+.ques__table a {
+  color: #bb2019 !important;
+}
+
+.bg--10th {
+  background-color: #2991213d !important;
+}
+
+.ques__table tr:hover {
+  background-color: #299121b8 !important;
+}
+
+/* Chat panel */
+.chat__panel {
+  background-color: #2d2d2d !important;
+}
+
+.chat__panel__box__head {
+  background-color: #3d3d3d !important;
+  color: #ffffff !important;
+}
+
+.chat__panel__box__body {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.chat__message__inf__name {
+  color: #ffffff !important;
+}
+
+.chat__message__inf__actor {
+  color: #bb2019 !important;
+}
+
+.chat__message__cont {
+  color: #ffffff !important;
+  background-color: #3d3d3d !important;
+}
+
+.chat__panel__input textarea {
+  background-color: #3d3d3d !important;
+  color: #ffffff !important;
+  border: 1px solid #4d4d4d !important;
+}
+
+/* Pagination */
+.pagination .page-link {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+  border-color: #4d4d4d !important;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #bb2019 !important;
+  border-color: #bb2019 !important;
+}
+
+/* Select dropdowns */
+.select-selected {
+  background-color: #3d3d3d !important;
+  color: #ffffff !important;
+}
+
+.select-items {
+  background-color: #3d3d3d !important;
+  color: #ffffff !important;
+}
+
+.select-items div {
+  color: #ffffff !important;
+}
+
+.select-items div:hover {
+  background-color: #4d4d4d !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d2d !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d4d4d !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d5d5d !important;
+}
+
+/* Ranking Top 3 */
+.rank__top {
+    background-color: #2d2d2d !important;
+}
+
+.rank__top__side, .rank__top__mid {
+    background-color: #3d3d3d !important;
+    border: 1px solid #4d4d4d !important;
+}
+
+.rank__top__number {
+    color: #ffffff !important;
+}
+
+.rank__top__info__name {
+    color: #ffffff !important;
+}
+
+.rank__top__info__class {
+    color: #cccccc !important;
+}
+
+.rank__top__info__sub {
+    color: #cccccc !important;
+}
+
+.rank__top__result__number {
+    color: #ffffff !important;
+}
+
+.rank__top__result__des {
+    color: #cccccc !important;
+}
+
+.text--ac {
+    color: #4CAF50 !important;
+}
+
+.text--blue {
+    color: #bb2019 !important;
+}
+
+.rank__top__mid {
+    background-color: #4d4d4d !important;
+    border: 2px solid #bb2019 !important;
+}
+
+.rank__top__mid .rank__top__info__name {
+    color: #ffd700 !important;
+} 
+
+.rank__top__result--left, .rank__top__result--right {
+  background-color: #4d4d4d !important;
+}
+
+.rank__top__side .rank__top__result--left, .rank__top__side .rank__top__result--right {
+  background-color: #3d3d3d !important;
+}
+
+.bg--20th {
+  background-color: #573838 !important;
+}
+
+.bg--50th {
+  background-color: #4c0a08 !important;
+}
+
+.bg--100th {
+  background-color: #381212 !important;
+}
+
+/* Submit Section */
+.submit {
+    background-color: #2d2d2d !important;
+}
+
+.submit__nav {
+    background-color: none !important;
+    border-bottom: 0px solid #4d4d4d !important;
+}
+
+.submit__nav p {
+    color: #ffffff !important;
+}
+
+.submit__nav__left a {
+    color: #bb2019 !important;
+}
+
+.submit__des {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.submit__des p, .submit__des li {
+    color: #ffffff !important;
+}
+
+.submit__des strong {
+    color: #ffffff !important;
+}
+
+.submit__des sup {
+    color: #ffffff !important;
+}
+
+.submit__req {
+    background-color: none !important;
+    color: #ffffff !important;
+}
+
+.submit__req span {
+    color: #bb2019 !important;
+}
+
+.submit__pad {
+    background-color: #2d2d2d !important;
+}
+
+.submit__pad__nav {
+    background-color: none !important;
+}
+
+.submit__pad__nav .custom-select {
+  background-color: #3d3d3d !important;
+  border: none !important;
+}
+
+.submit__pad__nav p {
+    color: #ffffff !important;
+}
+
+.fileInput__label {
+    background-color: none !important;
+    color: #ffffff !important;
+}
+
+.fileInput__value {
+    color: #ffffff !important;
+    background-color: #3d3d3d !important;
+    border: none !important;
+}
+
+.fileInput__browser {
+    background-color: #bb2019 !important;
+    color: #ffffff !important;
+}
+
+.submit__pad__btn {
+    background-color: #bb2019 !important;
+    color: #ffffff !important;
+}
+
+/* History Table */
+.card-body {
+    background-color: #2d2d2d !important;
+}
+
+.card-body h2 {
+    color: #ffffff !important;
+}
+
+.status__table {
+    background-color: #3d3d3d !important;
+    color: #ffffff !important;
+}
+
+.status__table__head {
+    background-color: #4d4d4d !important;
+}
+
+.status__table__head th {
+    color: #ffffff !important;
+}
+
+.status__table td {
+    color: #ffffff !important;
+}
+
+.status__table a {
+    color: #bb2019 !important;
+}
+
+.status__table__date, .status__table__time {
+    color: #cccccc !important;
+}
+
+/* MsoTableGrid */
+.MsoTableGrid {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.MsoTableGrid td {
+    border-color: #4d4d4d !important;
+    color: #ffffff !important;
+}
+
+.MsoTableGrid strong {
+    color: #ffffff !important;
+}
+
+.MsoTableGrid span {
+    color: #ffffff !important;
+}
+
+
+

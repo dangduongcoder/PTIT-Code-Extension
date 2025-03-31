@@ -18,7 +18,7 @@ Extension Chrome giúp tùy chỉnh giao diện và thêm các tính năng hữu
    - Extension sẽ được cài đặt tự động
    * Lưu ý: Extension hiện chưa được đăng tải lên Chrome Web Store. Vui lòng sử dụng cách cài đặt thủ công bên dưới.
 2. Hoặc cài đặt thủ công:
-   - Tải source code về máy
+   - Tải source code về máy và giải nén
    - Mở Chrome, truy cập `chrome://extensions/`
    - Bật chế độ "Developer mode"
    - Click "Load unpacked" và chọn thư mục chứa source code

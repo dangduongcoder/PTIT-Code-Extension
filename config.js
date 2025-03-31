@@ -10,11 +10,11 @@ window.themes = {
     css: 'themes/dark.css',
     js: 'themes/dark.js'
   },
-  custom: {
-    name: 'Custom Theme',
-    css: 'themes/custom.css',
-    js: 'themes/custom.js'
-  }
+  // custom: {
+  //   name: 'Custom Theme',
+  //   css: 'themes/custom.css',
+  //   js: 'themes/custom.js'
+  // }
 };
 
 // Các hàm xử lý cho từng setting

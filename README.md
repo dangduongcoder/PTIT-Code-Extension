@@ -79,4 +79,4 @@ Extension Chrome giúp tùy chỉnh giao diện và thêm các tính năng hữu
 
 ## Tác giả
 
-- **Your Name** - *Initial work* - [dangduongcoder](https://github.com/dangduongcoder)
+- **Trương Đăng Dương** - *D24 PTIT* - [dangduongcoder](https://github.com/dangduongcoder)

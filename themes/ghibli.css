@@ -1,0 +1,297 @@
+/* Ghibli Studio Theme */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --ghibli-primary: #2B4C7E;    /* Màu xanh dương đậm từ Totoro */
+    --ghibli-secondary: #7E9EAB;  /* Màu xanh xám từ Spirited Away */
+    --ghibli-accent: #E6B17A;     /* Màu cam nhạt từ Howl's Moving Castle */
+    --ghibli-text: #2C3E50;       /* Màu chữ tối */
+    --ghibli-bg: #F5F6FA;         /* Màu nền nhẹ nhàng */
+    --ghibli-border: #B8C6DB;     /* Màu viền */
+}
+
+/* Apply Nunito font to all elements */
+body, 
+.nav__menu__item a,
+.nav__profile__menu,
+.ques__nav__title,
+.ques__nav__form input[type="text"],
+.ques__table th,
+.ques__table td,
+.ques__table a,
+.chat__panel__box__head,
+.chat__message__inf__name,
+.chat__message__cont,
+.chat__panel__input textarea,
+.pagination .page-link,
+.select-selected,
+.select-items div,
+.submit__nav p,
+.submit__nav__left a,
+.submit__des,
+.submit__req,
+.submit__pad__nav p,
+.fileInput__label,
+.fileInput__value,
+.fileInput__browser,
+.submit__pad__btn,
+.card-body h2,
+.status__table th,
+.status__table td,
+.status__table a,
+.status__table__date,
+.status__table__time,
+.MsoTableGrid td,
+.MsoTableGrid strong,
+.MsoTableGrid span {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+body {
+    background-color: var(--ghibli-bg) !important;
+    color: var(--ghibli-text) !important;
+}
+
+/* Navigation */
+.nav {
+    background-color: var(--ghibli-primary) !important;
+}
+
+.nav__menu__item a {
+    color: #ffffff !important;
+}
+
+.nav__profile__menu {
+    background-color: var(--ghibli-primary) !important;
+    color: #ffffff !important;
+}
+
+/* Main content */
+.wrapper {
+    background-color: var(--ghibli-bg) !important;
+}
+
+.ques__nav__top {
+    background-color: var(--ghibli-secondary) !important;
+}
+
+.ques__nav__title {
+    color: #ffffff !important;
+}
+
+.ques__nav__form input[type="text"] {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+    border: 1px solid var(--ghibli-border) !important;
+}
+
+.ques__table {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.ques__table__head {
+    background-color: var(--ghibli-secondary) !important;
+}
+
+.ques__table th {
+    color: #ffffff !important;
+}
+
+.ques__table td {
+    color: var(--ghibli-text) !important;
+}
+
+.ques__table a {
+    color: var(--ghibli-primary) !important;
+}
+
+.ques__table tr:hover {
+    background-color: #f0f2f5 !important;
+}
+
+/* Chat panel */
+.chat__panel {
+    background-color: #ffffff !important;
+}
+
+.chat__panel__box__head {
+    background-color: var(--ghibli-secondary) !important;
+    color: #ffffff !important;
+}
+
+.chat__panel__box__body {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.chat__message__inf__name {
+    color: var(--ghibli-primary) !important;
+}
+
+.chat__message__cont {
+    color: var(--ghibli-text) !important;
+}
+
+.chat__panel__input textarea {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+    border: 1px solid var(--ghibli-border) !important;
+}
+
+/* Pagination */
+.pagination .page-link {
+    background-color: #ffffff !important;
+    color: var(--ghibli-primary) !important;
+    border-color: var(--ghibli-border) !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--ghibli-primary) !important;
+    border-color: var(--ghibli-primary) !important;
+}
+
+/* Select dropdowns */
+.select-selected {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.select-items {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.select-items div:hover {
+    background-color: #f0f2f5 !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--ghibli-bg) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--ghibli-secondary) !important;
+    border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--ghibli-primary) !important;
+}
+
+/* Submit Section */
+.submit {
+    background-color: #ffffff !important;
+}
+
+.submit__nav {
+    background-color: var(--ghibli-secondary) !important;
+    border-bottom: 1px solid var(--ghibli-border) !important;
+}
+
+.submit__nav p {
+    color: #ffffff !important;
+}
+
+.submit__nav__left a {
+    color: var(--ghibli-accent) !important;
+}
+
+.submit__des {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.submit__req {
+    background-color: var(--ghibli-secondary) !important;
+    color: #ffffff !important;
+}
+
+.submit__req span {
+    color: var(--ghibli-accent) !important;
+}
+
+.submit__pad {
+    background-color: #ffffff !important;
+}
+
+.submit__pad__nav {
+    background-color: var(--ghibli-secondary) !important;
+}
+
+.fileInput__label {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.fileInput__value {
+    color: var(--ghibli-text) !important;
+}
+
+.fileInput__browser {
+    background-color: var(--ghibli-accent) !important;
+    color: #ffffff !important;
+}
+
+.submit__pad__btn {
+    background-color: var(--ghibli-accent) !important;
+    color: #ffffff !important;
+}
+
+/* History Table */
+.card-body {
+    background-color: #ffffff !important;
+}
+
+.card-body h2 {
+    color: var(--ghibli-primary) !important;
+}
+
+.status__table {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.status__table__head {
+    background-color: var(--ghibli-secondary) !important;
+}
+
+.status__table__head th {
+    color: #ffffff !important;
+}
+
+.status__table td {
+    color: var(--ghibli-text) !important;
+}
+
+.status__table a {
+    color: var(--ghibli-accent) !important;
+}
+
+.status__table__date, .status__table__time {
+    color: var(--ghibli-secondary) !important;
+}
+
+/* MsoTableGrid */
+.MsoTableGrid {
+    background-color: #ffffff !important;
+    color: var(--ghibli-text) !important;
+}
+
+.MsoTableGrid td {
+    border-color: var(--ghibli-border) !important;
+    color: var(--ghibli-text) !important;
+}
+
+.MsoTableGrid strong {
+    color: var(--ghibli-primary) !important;
+}
+
+.MsoTableGrid span {
+    color: var(--ghibli-text) !important;
+} 

@@ -10,6 +10,11 @@ window.themes = {
     css: 'themes/dark.css',
     js: 'themes/dark.js'
   },
+  ghibli: {
+    name: 'Ghibli Theme',
+    css: 'themes/ghibli.css',
+    js: 'themes/ghibli.js'
+  },
   // custom: {
   //   name: 'Custom Theme',
   //   css: 'themes/custom.css',

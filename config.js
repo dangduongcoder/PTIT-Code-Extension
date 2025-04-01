@@ -120,7 +120,7 @@ window.settings = {
     name: 'Hiện sao chép input/output',
     type: 'checkbox',
     default: false,
-    description: 'Hiển thị nút sao chép cho input và output',
+    description: 'Hiển thị nút sao chép cho input và output (Tải lại trang để tiện ích hoạt động)',
     handler: window.settingHandlers.showIO
   }
   // Thêm settings mới ở đây

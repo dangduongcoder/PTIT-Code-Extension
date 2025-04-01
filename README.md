@@ -2,6 +2,21 @@
 
 Extension Chrome giúp tùy chỉnh giao diện và thêm các tính năng hữu ích cho trang web [code.ptit.edu.vn](https://code.ptit.edu.vn) - trang web chấm bài tự động dành cho sinh viên PTIT thực hành các môn tin học, cơ sở dữ liệu và giải thuật, lập trình thi đấu.
 
+## Preview các theme
+
+### Theme Ghibli
+![Theme Ghibli](/preview/ghibli.png)
+*Theme lấy cảm hứng từ phong cách hoạt hình Ghibli với tông màu ấm áp, nhẹ nhàng*
+
+### Theme Dark
+![Theme Dark](/preview/dark.png)
+*Theme tối với độ tương phản cao, phù hợp code ban đêm*
+
+### Theme Default 
+![Theme Default](/preview/default.png)
+*Theme mặc định của trang web*
+
+
 ## Tính năng
 
 - 🎨 Theme tối (Dark Mode) cho toàn bộ trang web

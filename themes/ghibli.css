@@ -50,17 +50,6 @@ body,
     font-family: 'Nunito', sans-serif !important;
 }
 
-/* Apply PT Serif font to specific elements */
-.ques__nav__title,
-.card-body h2,
-.submit__des strong,
-.submit__des p,
-.submit__des li,
-.MsoTableGrid strong,
-.MsoTableGrid td {
-    /* font-family: 'PT Serif', serif !important; */
-}
-
 body {
     background-color: var(--ghibli-bg) !important;
     color: var(--ghibli-text) !important;
@@ -89,7 +78,7 @@ body {
     border-bottom-width: 4px !important;
     border-radius: 8px !important;
     color: var(--ghibli-text) !important;
-    
+
 }
 
 .pagination {
@@ -192,13 +181,6 @@ body {
     padding: 0px 5px !important;
 }
 
-#nav__logo {
-    /* margin-left: 20px !important; */
-}
-
-#nav__profile {
-    /* margin-right: 20px !important; */
-}
 
 .nav__menu__item__logo {
     display: none !important;
@@ -315,8 +297,18 @@ body {
 }
 
 
+.bestsol {
+    background-color: var(--ghibli-bg-wrapper) !important;
+    border-radius: 22px !important;
+    border-width: 2px !important;
+    border-color: var(--ghibli-border) !important;
+    border-style: solid !important;
+    border-bottom-width: 4px !important;    
+    
+}
 
-.ques__table, .status__table, .rank__table {
+
+.ques__table, .status__table, .rank__table, .bestsol__table {
     background-color: var(--ghibli-bg-wrapper) !important;
     color: var(--ghibli-text) !important;
     border-radius: 22px !important;
@@ -395,7 +387,7 @@ body {
     display: none !important;
 }
 
-.ques__table__wrapper, .status__table__wrapper, .rank__table__wrapper {
+.ques__table__wrapper, .status__table__wrapper, .rank__table__wrapper, .status__table__wrapper {
     display: flex !important;
     flex-direction: column !important;
     /* gap: 10px !important; */
@@ -403,19 +395,19 @@ body {
     align-items: center !important;
 }
 
-.ques__table__head, .status__table__head, .rank__table__head {
+.ques__table__head, .status__table__head, .rank__table__head, .bestsol__table__head {
     background-color: var(--ghibli-bg-wrapper) !important;
     color: var(--ghibli-text) !important;
 }
 
-.ques__table__head th, .status__table__head th, .rank__table__head th {
+.ques__table__head th, .status__table__head th, .rank__table__head th, .bestsol__table__head th {
     color: var(--ghibli-text) !important;
     font-weight: 700 !important;
     padding: 12px !important;
     border: none !important;
 }
 
-.ques__table__head th a, .status__table__head th a, .rank__table__head th a {
+.ques__table__head th a, .status__table__head th a, .rank__table__head th a, .bestsol__table__head th a {
     color: var(--ghibli-text) !important;
     text-decoration: none !important;
 }
@@ -424,11 +416,11 @@ body {
     color: var(--ghibli-text) !important;
 }
 
-.ques__table__head th a:hover, .status__table__head th a:hover, .rank__table__head th a:hover {
+.ques__table__head th a:hover, .status__table__head th a:hover, .rank__table__head th a:hover, .bestsol__table__head th a:hover {
     color: var(--ghibli-accent) !important;
 }
 
-.ques__table td, .status__table td, .rank__table td {
+.ques__table td, .status__table td, .rank__table td, .bestsol__table td {
     padding: 12px !important;
     border-bottom: 2px solid var(--ghibli-border) !important;
     color: var(--ghibli-text) !important;
@@ -436,7 +428,7 @@ body {
 
 
 
-.ques__table tr, .status__table tr, .rank__table tr {
+.ques__table tr, .status__table tr, .rank__table tr, .bestsol__table tr {
     transition: background-color 0.3s ease !important;
 }
 

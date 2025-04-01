@@ -48,7 +48,6 @@ window.settingHandlers = {
 
         const [inputCell, outputCell] = cells;
 
-        // Tạo nút copy cho input
         const inputCopyBtn = document.createElement('button');
         inputCopyBtn.className = 'btn-copy-dang-duong';
         inputCopyBtn.textContent = 'Copy';
@@ -57,7 +56,6 @@ window.settingHandlers = {
         inputCopyBtn.style.top = '5px';
         inputCopyBtn.style.right = '5px';
         
-        // Tạo nút copy cho output  
         const outputCopyBtn = document.createElement('button');
         outputCopyBtn.className = 'btn-copy-dang-duong';
         outputCopyBtn.textContent = 'Copy';
@@ -66,7 +64,6 @@ window.settingHandlers = {
         outputCopyBtn.style.top = '5px';
         outputCopyBtn.style.right = '5px';
 
-        // Hàm lấy nội dung từ cell
         const getCellContent = (cell) => {
           const paragraphs = cell.querySelectorAll('p');
           return Array.from(paragraphs)
@@ -74,7 +71,6 @@ window.settingHandlers = {
             .join('\n');
         };
 
-        // Xử lý sự kiện click
         inputCopyBtn.onclick = () => {
           const text = getCellContent(inputCell);
           navigator.clipboard.writeText(text).then(() => {
